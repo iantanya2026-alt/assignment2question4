@@ -1,0 +1,15 @@
+import random
+
+# Generate list of 5 random float-point numbers
+numbers = [random.randint(1, 10) for i in range(5)]
+
+print("Generated numbers:")
+for number in numbers:
+    print(f"{number:.2f}")
+
+# Find minimum and Maximum values
+minimum = min(numbers)
+maximum = max(numbers)
+
+print(f"\nMinimum value: {minimum:.2f}")
+print(f"Maximum value: {maximum:.2f}")
